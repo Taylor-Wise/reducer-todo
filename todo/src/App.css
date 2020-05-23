@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  background: #ccddff;
+  min-height: 100vh;
+}
+
+.AppHeader {
+  background: #6699ff;
+  font-size: 30px;
+  margin: 3%;
+}
+
+.ToDo{
+  margin: 5%;
+  padding: 5%;
+}
+
+.uncomplete {
+  background-color: #6699ff;
+  color: black;
+  width: 250px;
+  padding: 5px;
+}
+
+.complete {
+  background-color: #99bbff;
+  text-decoration: line-through;
+  color: lightgray;
+  width: 250px;
+  padding: 5px;
+}
+
+button {
+  margin: 0 0 0 5%;
+}
